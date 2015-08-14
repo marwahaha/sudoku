@@ -6,12 +6,13 @@ Forks and comments are welcome!
 
 ##Controls
 ###Reset
-```bd = Board()``` will instantiate a new Sudoku board
+```bd = Board()``` will instantiate a new Sudoku board. Can add optional parameter ```n``` (such as ```bd = Board(n)```) to create a n<sup>2</sup> by n<sup>2</sup> board. (By default, n=3, like in normal Sudoku.)
 ###View
 ```bd.view()``` will return a copy of the current Sudoku board (as a NumPy array). The value "0" is unknown.
 ###Adding/Removing Values
-```bd.set_val(val,pos)``` will put a value at position (either tuple (row,col) or int from 1 to 81). Position is indexed from 1. If value is not nonzero, then sets to "0" (unknown). A full list of commands is here:
+```bd.set_val(val,pos)``` will put a value at position (either tuple or int). Position is indexed from 1. If value is not nonzero, then sets to "0" (unknown). A full list of commands is here:
 ```
+##Assuming bd.size = n**2 = 9
 bd.set_board(vals)      #expects len(vals) == 81
 bd.set_row(vals,row)    #expects len(vals) == 9; row is int from 1 to 9
 bd.set_column(vals,col) #expects len(vals) == 9; col is int from 1 to 9
