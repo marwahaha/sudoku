@@ -29,6 +29,6 @@ bd.check_columns()      #for each col, is each nonzero entry distinct?
 bd.check_boxes()        #for each box, is each nonzero entry distinct?
 ```
 ###Solving
-```bd.solve()``` will attempt to solve the board (brute-force) with its given entries. On completion, the procedure will print its status (success or failure). If failure, the procedure has no effect. (This is a brute-force solver, but it is reasonably fast for many boards)
+```bd.solve()``` will attempt to solve the board with its given entries. On completion, the procedure will print its status (success or failure). If failure, the procedure has no effect. (Although the solver is mostly brute-force, it is reasonably fast for many boards)
 ##Have fun!
 Let me know if there are any bugs or comments. Enjoy :-)
