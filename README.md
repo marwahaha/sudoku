@@ -1,5 +1,9 @@
 # sudoku
+
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/marwahaha/sudoku/master?filepath=solver.ipynb)
+
 Sudoku board viewer and solver in IPython/Jupyter, using [NumPy](http://www.numpy.org/) arrays
+
 by Kunal Marwaha
 
 View the notebook on [Github](https://github.com/marwahaha/sudoku/blob/master/solver.ipynb) or [nbviewer](http://nbviewer.ipython.org/github/marwahaha/sudoku/blob/master/solver.ipynb).
